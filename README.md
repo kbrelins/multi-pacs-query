@@ -1,5 +1,7 @@
 # multi_pacs_query17_exclude
 
+**Skrypt do wykonywania zapytań DICOM C-FIND na serwerach PACS z obsługą filtrowania modalności, wykluczania wybranych badań i zapisem wyników do CSV.**
+
 ## Opis (PL)
 Skrypt służy do wykonywania zapytań C-FIND (DICOM) na serwerach PACS w celu pobrania informacji o badaniach i seriach obrazów.  
 Obsługuje równoległe zapytania do wielu serwerów, filtrowanie badań wg modalności (`--modality`) oraz wykluczanie modalności (`--exclude`).  
@@ -36,6 +38,8 @@ pip install pynetdicom pydicom
 ```
 
 ---
+
+**Python script for performing DICOM C-FIND queries on PACS servers with modality filtering, exclusion options, and CSV results export.**
 
 ## Description (EN)
 The script performs C-FIND (DICOM) queries on PACS servers to retrieve information about studies and image series.  
